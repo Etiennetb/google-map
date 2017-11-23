@@ -1,0 +1,43 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#pagecontent{
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	align-content: center;
+	font-family: 'Roboto', sans-serif; src: "https://fonts.googleapis.com/css?family=Roboto";
+    align-items: center;
+    justify-content: center
+}
+
+h1 {
+
+	font-weight: bold;
+	font-size: 30px;
+	color: #E67E22;
+
+}
+
+h2 {
+
+	font-weight: lighter;
+	font-size: 20px;
+	color: #95A5A6;
+}
+
+.menu{
+ display: flex;
+ flex-direction: row;
+ border-style: solid;
+ border-color: black;
+ border: 20px;
+ background-color: black;
+ color: white;
+ width: 40%;
+ justify-content: center;
+ margin: auto;
+
+}
+
