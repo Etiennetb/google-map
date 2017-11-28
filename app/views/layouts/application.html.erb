@@ -1,15 +1,22 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Map</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
-    <script src="scripts/main.js"></script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="stylesheets/home.css">
+    <style>
+      #map {
+        height: 100%;
+      }
+    </style>
   </head>
 
   <body>
     <%= yield %>
+    <script src="assets/javascripts/index.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?key=Key&callback=initMap"
+  async defer></script>
   </body>
 </html>

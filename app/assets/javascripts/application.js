@@ -16,4 +16,4 @@
 //= require jquery
 
 
-//=require "index.js"
+//=require "assets/javascripts/index.js"
